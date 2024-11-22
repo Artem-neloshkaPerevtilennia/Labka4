@@ -1,5 +1,132 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  padding: 1% 0;
+}
+
+.logo {
+  text-decoration: none;
+  margin-left: 15%;
+  min-height: 70%;
+}
+
+.logo-text {
+  color: gray;
+  font-size: 2em;
+}
+
+.menu-icon {
+  height: 70%;
+  margin-right: 15%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  min-height: 80%;
+  width: 100%;
+}
+
+.contant {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80%;
+  width: 100%;
+  margin: 7% 15% 10% 15%;
+}
+
+.contant-title {
+  color: white;
+}
+
+.features {
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+.theme {
+  font-size: 3.5em;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.strategy, .concept {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  width: 32%;
+  padding: 3%;
+}
+
+.concept {
+  
+}
+
+.description {
+  color: white;
+  margin: 10% 0;
+  text-align: center;
+}
+
+.more-btn {
+  color: orange;
+}
+
+.laptop-image {
+  width: 32%;
+  position: relative;
+}
+
+.laptop-image img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.simple-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(28, 26, 26);
+  min-height: 10%;
+  width: 100%;
+}
+
+.footer-text {
+  text-align: center;
+  width: 30%;
+  color: white;
+  font-weight: lighter;
+  font-size: 60%;
 }
