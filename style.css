@@ -5,7 +5,7 @@
 }
 
 html, body {
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@ html, body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 10%;
+  height: 7vh;
   width: 100%;
   padding: 1% 0;
 }
@@ -30,20 +30,24 @@ html, body {
 
 .logo-text {
   color: gray;
-  font-size: 2em;
+  font-size: 1.3em;
 }
 
 .menu-icon {
-  height: 70%;
+  height: 100%;
   margin-right: 15%;
+}
+
+.menu-icon img {
+  height: 100%;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
-  min-height: 80%;
+  background-color: rgb(0, 51, 255);
+  min-height: 85vh;
   width: 100%;
 }
 
@@ -54,10 +58,11 @@ html, body {
   align-items: center;
   min-height: 80%;
   width: 100%;
-  margin: 7% 15% 10% 15%;
+  margin: 3% 15% 7% 15%;
 }
 
 .contant-title {
+  width: 100%;
   color: white;
 }
 
@@ -67,14 +72,15 @@ html, body {
 }
 
 .theme {
-  font-size: 3.5em;
+  font-size: 3em;
+  margin: 1% 0% 3% 0%;
 }
 
 .info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   width: 100%;
 }
 
@@ -83,13 +89,9 @@ html, body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: lightblue;
+  background-color: rgb(0, 81, 255);
   width: 32%;
   padding: 3%;
-}
-
-.concept {
-  
 }
 
 .description {
@@ -108,6 +110,7 @@ html, body {
 }
 
 .laptop-image img {
+  width: 120%;
   position: absolute;
   right: 0;
   top: 50%;
@@ -119,8 +122,9 @@ html, body {
   justify-content: center;
   align-items: center;
   background-color: rgb(28, 26, 26);
-  min-height: 10%;
+  height: 10vh;
   width: 100%;
+  padding: 1%;
 }
 
 .footer-text {
@@ -128,5 +132,5 @@ html, body {
   width: 30%;
   color: white;
   font-weight: lighter;
-  font-size: 60%;
+  font-size: 75%;
 }
