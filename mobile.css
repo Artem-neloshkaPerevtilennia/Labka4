@@ -135,7 +135,7 @@ html, body {
   font-size: 75%;
 }
 
-@media (max-aspect-ratio: 9/16) {
+@media (max-aspect-ratio: 9/14) {
   .contant {
     margin-top: 15%;
     margin-bottom: 30%;
